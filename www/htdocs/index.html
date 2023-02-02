@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Torizon Bootcamp</title>
+  </head>
+  <body>
+    <h1>Webserver is running!</h1>
+  </body>
+</html>
+
+<form action="/cgi-bin/leds.cgi" method="POST">
+  <input type="submit" name="red" value="red-on">
+  <input type="submit" name="green" value="green-on">
+  <input type="submit" name="blue" value="blue-on">
+</form>
+
+<form action="/cgi-bin/leds.cgi" method="POST">
+  <input type="submit" name="red" value="red-off">
+  <input type="submit" name="green" value="green-off">
+  <input type="submit" name="blue" value="blue-off">
+</form>
